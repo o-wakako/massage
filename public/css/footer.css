@@ -1,0 +1,29 @@
+@media(max-width:1024px){
+footer div{
+    text-align: center;
+    color: #774332; 
+    font-size: 2.5vw;
+}
+
+.copyright{
+    text-align: center;
+    color: #333631; 
+    font-size: 1.5vw;
+}
+
+}
+
+@media(min-width:1025px){
+    footer div{
+        text-align: center;
+        color: #774332; 
+        font-size: 23px;
+    }
+    
+    .copyright{
+        text-align: center;
+        color: #333631; 
+        font-size: 18px;
+    }
+    
+    }

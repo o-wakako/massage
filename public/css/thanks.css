@@ -1,0 +1,140 @@
+@media(max-width:1024px){
+    .inquiry-description{
+        position: relative;
+        z-index: 1;
+    }
+
+    .inquiry-message{
+        position: absolute;
+        bottom: 10vw;
+        left: 35vw;
+        z-index: 2;
+        font-size: 4vw;
+        color: #333631;
+        font-weight: 500;
+        font-family:'Noto Serif JP', serif;
+    }
+
+    .inquiry-img{
+        max-width: 100%;
+        opacity: 0.5;
+    }
+
+    .about-inquiry{
+        font-size: 2.5vw;
+        text-align: center;
+        color: #333631;
+        margin: 5vw;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 3.3vw;
+        color: #333631;
+        margin: 5vw;
+    }
+
+    p{
+        width: 85vw;
+        margin: 0vw auto;
+        font-size: 2.8vw;
+        color: #333631;
+    }
+
+    .back-top{
+       text-align: center;
+       margin: 5vw auto;
+       width: 18vw;
+       background-color: #d3ccd6;
+    }
+
+    .back-top a{
+        color: #333631;
+        text-decoration: none;
+        font-size: 2.8vw;
+        line-height: 5vw;
+        text-align: center;
+        display: block;
+    }
+
+    .back-top a:hover{
+        background-color: #95859c;
+        color: #f3f3f3;
+    }
+
+    .back-top a:active{
+        background-color: #95859c;
+    }
+}
+
+@media(min-width:1025px){
+    .inquiry-description{
+        position: relative;
+        z-index: 1;
+        width: 1025px;
+        margin: 0px auto; 
+    }
+
+    .inquiry-message{
+        position: absolute;
+        bottom: 102px;
+        left: 350px;
+        z-index: 2;
+        font-size: 41px;
+        color: #333631;
+        font-family:'Noto Serif JP', serif;
+        font-weight: 500;
+    }
+
+    .inquiry-img{
+        max-width: 1025px;
+        opacity: 0.5;
+    }
+
+    .about-inquiry{
+        font-size: 25px;
+        text-align: center;
+        color: #333631;
+        margin: 51px;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 34px;
+        color: #333631;
+        margin: 50px;
+    }
+
+    p{
+        width: 871px;
+        margin: 0px auto;
+        font-size: 29px;
+        color: #333631;
+    }
+
+    .back-top{
+       text-align: center;
+       margin: 51px auto;
+       width: 184px;
+       background-color: #d3ccd6;
+    }
+
+    .back-top a{
+        color: #333631;
+        text-decoration: none;
+        font-size: 29px;
+        line-height: 51px;
+        text-align: center;
+        display: block;
+    }
+
+    .back-top a:hover{
+        background-color: #95859c;
+        color: #f3f3f3;
+    }
+
+    .back-top a:active{
+        background-color: #95859c;
+    }
+
+}

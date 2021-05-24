@@ -1,0 +1,247 @@
+@media(max-width:1024px){
+
+    .inquiry-description{
+        position: relative;
+        z-index: 1;
+    }
+
+    .inquiry-message{
+        position: absolute;
+        bottom: 11vw;
+        left: 22vw;
+        z-index: 2;
+        font-size: 4vw;
+        color: #333631;
+        font-weight: 500;
+        font-family:'Noto Serif JP', serif;
+        font-weight: 500;
+    }
+
+    .inquiry-img{
+        max-width: 100%;
+        opacity: 0.5;
+    }
+
+    .about-inquiry{
+        font-size: 2.5vw;
+        text-align: center;
+        color: #333631;
+        margin: 5vw;
+    }
+
+    .inquiry-form{
+        width: 58vw;
+        margin: 3vw auto 10vw;
+        border: double #d3ccd6;
+    }
+
+    .inquiry-form div{
+        margin: 2vw;
+    }
+
+    .required{
+        font-size: 2.5vw;
+        color: #e80000;
+    }
+
+
+    .block-label{
+        display: block;
+        font-size: 3vw;
+        color: #333631;
+        text-align: center;
+        line-height: 6vw;
+    }
+
+    .block-input, .block-textarea{
+        display: block;
+        margin: 1vw auto;
+        width: 40vw;
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    #form-name,#form-mail,#form-contact{
+        border: #333631 solid 1px;
+    }
+
+    .gender-item{
+        color: #333631;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gender-title{
+        font-size: 3vw;
+    }
+
+    .gender{
+        font-size: 2.5vw;
+    }
+
+    textarea{
+        height: 10vw;
+    }
+
+    .ok-check{
+        font-size: 2.3vw;
+    }
+
+    .send-button{
+        text-align: center;
+        margin: 2vw auto;
+    }
+
+    .send-button button{
+        font-size: 2.5vw;
+        line-height: 4vw;
+        color: #333631;
+        width: 20vw;
+        text-align: center;
+        background-color: #d3ccd6;
+        border:none;
+    }
+
+    .send-button button:hover{
+        background-color: #95859c;
+        color: #f3f3f3;
+    }
+
+    .send-button button:active{
+        background-color: #95859c;
+    }
+
+    .caution{
+        font-size: 2.3vw;
+        text-align: center;
+        color: #333631;
+        margin: 0vw;
+    }
+
+}
+
+@media(min-width:1025px){
+
+    .inquiry-description{
+        position: relative;
+        width: 1025px;
+        margin: 0px auto; 
+    }
+
+    .inquiry-message{
+        font-size: 32px;
+        line-height: 40px;
+        color: #333631;
+        position: absolute;
+        bottom: 141px;
+        left: 294px;
+        font-weight: 500;
+        font-family:'Noto Serif JP', serif;
+        font-weight: 500;
+    }
+
+    .inquiry-img{
+        width: 1025px;
+        opacity: 0.5;
+    }
+
+    .about-inquiry{
+        font-size: 25px;
+        text-align: center;
+        color: #333631;
+        margin: 50px;
+    }
+
+    
+    .inquiry-form{
+        width: 594px;
+        margin: 40px auto 102px;
+        border: double #d3ccd6;
+    }
+
+    .inquiry-form div{
+        margin: 31px;
+    }
+
+    .required{
+        font-size: 25px;
+        color: #e80000;
+    }
+
+
+    .block-label{
+        display: block;
+        font-size: 31px;
+        color: #333631;
+        text-align: center;
+        line-height: 62px;
+    }
+
+    .block-input, .block-textarea{
+        display: block;
+        margin: 10px auto;
+        width: 400px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #form-name,#form-mail,#form-contact{
+        border: #333631 solid 1px;
+    }
+
+    .gender-item{
+        color: #333631;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gender-title{
+        font-size: 30px;
+    }
+
+    .gender{
+        font-size: 25px;
+    }
+
+    textarea{
+        height: 102px;
+    }
+
+    .ok-check{
+        font-size: 23px;
+    }
+
+    .send-button{
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .send-button button{
+        font-size: 25px;
+        line-height: 41px;
+        color: #333631;
+        width: 205px;
+        text-align: center;
+        background-color: #d3ccd6;
+        border:none;
+    }
+
+    .send-button button:hover{
+        background-color: #95859c;
+        color: #f3f3f3;
+    }
+
+    .send-button button:active{
+        background-color: #95859c;
+    }
+
+    .caution{
+        font-size: 18px;
+        text-align: center;
+        color: #333631;
+        margin: 0px;
+    }
+
+}

@@ -1,0 +1,132 @@
+@media(max-width:1024px){
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0; 
+    padding-top: 21vw;
+}
+
+.pc-header{
+    display: none;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.sm-header div{
+    display: flex;
+    align-items: center;
+    background-color: #f5f3ef;
+}
+
+.sm-header div a{
+    margin-left:24vw;
+}
+
+.site-icon{
+    width: 40vw;
+}
+
+.menubtn{
+    width: 18vw;
+    height: 18vw;
+    margin-left: 14vw;
+}
+
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgba( 245, 243, 239, 0.8 );
+    margin: 0;
+    padding-top: 2vw;
+}
+
+nav ul li{
+    text-align: center;
+}
+
+nav ul li a{
+    font-size: 3vw;
+    color: #774332;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    padding-bottom: 2vw;
+}
+}
+
+
+
+@media(min-width:1025px) {
+    
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-top: 125px;
+}
+
+.sm-header{
+    display: none;
+}
+
+header{
+    position: fixed;
+    z-index: 100; 
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #f5f3ef;   
+}
+
+.site-icon{
+    width: 130px;
+    border-radius: 50%;
+}
+
+.site-description{
+    text-align: center;
+    color:#808080;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.navbar ul li a{
+    width: 170px;
+    color: #774332;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar ul li + li::before{
+    content: "/";
+    color: #774332;
+    font-size: 25px;
+    margin-right: 16px;
+}
+
+} 

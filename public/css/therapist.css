@@ -1,0 +1,116 @@
+ @media (max-width:1024px){
+
+    .therapist-description{
+        position: relative;
+        z-index: 1;
+    }
+
+    .therapist-message{
+        position: absolute;
+        bottom: 22vw;
+        left: 66vw;
+        z-index: 2;
+        text-align: center;
+        font-size: 4vw;
+        color: #333631;
+        font-weight: 500;
+        font-family:'Noto Serif JP', serif;
+        font-weight: 500;
+    }
+
+    .therapist-img{
+        max-width: 100%;
+        opacity: 0.5;
+    }
+
+    .therapist-intoroduce{
+        display: flex;
+        justify-content: space-evenly;
+        margin:10vw auto;
+        align-items: center;
+    }
+
+    .person-img{
+        width: 20vw;
+        border-radius: 50%;
+    }
+
+    h2{
+        color: #333631;
+        font-weight: 300;
+        font-size: 3vw;
+        margin-top: 0vw;
+    }
+
+    h2::before{
+        content:'';
+        border: #333631 solid;
+        margin-right: 2vw;
+    }
+
+    .therapist-comment{
+        width: 60vw;
+        font-size: 3vw;
+    }
+
+} 
+
+
+@media(min-width:1025px){
+    .therapist-description{
+        position: relative;
+        z-index: 1;
+        width: 1025px;
+        margin: 0px auto;  
+    }
+
+    .therapist-message{
+        font-size: 32px;
+        line-height: 40px;
+        color: #333631;
+        position: absolute;
+        bottom: 235px;
+        left: 680px;
+        font-weight: 500;
+        font-family:'Noto Serif JP', serif;
+        font-weight: 500;
+    }
+
+    .therapist-img{
+        max-width: 1025px;
+        opacity: 0.5;
+    }
+
+    
+    .therapist-intoroduce{
+        width: 1025px;
+        display: flex;
+        justify-content: space-evenly;
+        margin:100px auto;
+        align-items: center;
+    }
+
+    .person-img{
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    h2{
+        color: #333631;
+        font-weight: 300;
+        font-size: 30px;
+        margin-top: 0px;
+    }
+
+    h2::before{
+        content:'';
+        border: #333631 solid;
+        margin-right: 20px;
+    }
+
+    .therapist-comment{
+        width: 630px;
+        font-size: 20px;
+    }
+
+}

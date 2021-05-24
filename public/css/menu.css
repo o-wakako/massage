@@ -1,0 +1,210 @@
+@media (max-width:1024px){
+
+
+    .menu-description{
+        position: relative;
+        z-index: 1;
+    }
+
+    .menu-message{
+        position: absolute;
+        bottom: 18vw;
+        left: 66vw;
+        z-index: 2;
+        text-align: center;
+        font-size: 4vw;
+        color: #333631;
+        font-weight: 500;
+        font-family:'Noto Serif JP', serif;
+        font-weight: 500;
+    }
+
+    .menu-img{
+        max-width: 100%;
+        opacity: 0.5;
+    }
+
+    .menu-detail{
+        margin-top: 10vw;
+        margin-bottom: 5vw;
+    } 
+
+    .menu-detail div{
+        position: relative;
+    } 
+
+    .momihogusi-img{
+        position: absolute;
+        width: 12vw;
+        bottom: 1vw;
+        left: 24vw;
+    }
+
+    .oilmassage-img{
+        position: absolute;
+        width: 12vw;
+        bottom: 1vw;
+        left: 21vw; 
+    }
+
+    .headmassage-img{
+        position: absolute;
+        width: 12vw;
+        bottom: 1vw;
+        left: 22vw; 
+    }
+    
+    .menu-detail h2{
+        color:#333631;
+        font-weight: 300;
+        text-align: center;
+        font-size: 4vw;
+        line-height: 6vw;
+        border-bottom: #333631 solid 0.3vw;
+        width: 60vw;
+        margin: 0vw auto; 
+        margin-top: 10vw;
+        margin-bottom:5vw;
+    }
+
+    .menu-detail p{
+        font-size: 3vw;
+        color:#333631;
+        width: 70vw;
+        margin: 0vw auto;
+        text-align: start;
+        font-weight: 300;
+    }
+
+    
+    .inquiry{
+        text-align: center;
+        margin: 0vw auto 8vw;
+        width: 23vw;
+        background-color: #d3ccd6;
+        line-height: 4.5vw;
+    }
+
+    .inquiry a{
+        font-size: 2.5vw;
+        color: #333631;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+    }
+
+    .inquiry a:hover{
+        background-color: #95859c;
+        color: #f3f3f3;
+    }
+
+    .inquiry a:active{
+        background-color: #95859c;
+    }
+    
+
+}
+
+
+
+@media (min-width:1025px){
+  
+    .menu-description{
+        position: relative;
+        width: 1025px;
+        margin: 0px auto;    
+    }
+
+    .menu-img{
+        width: 1025px;
+        opacity: 0.5;
+    }
+
+
+    .menu-message{
+        font-size: 32px;
+        line-height: 40px;
+        color: #333631;
+        position: absolute;
+        bottom: 210px;
+        left: 746px;
+        font-family:'Noto Serif JP', serif;
+        font-weight: 500;
+    }
+
+    .menu-detail{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    } 
+
+    .momihogusi-img{
+        position: absolute;
+        width: 125px;
+        bottom: 9px;
+        left: 58px;
+    }
+
+    .oilmassage-img{
+        position: absolute;
+        width: 125px;
+        bottom: 6px;
+        left: 12px;
+    }
+
+    .headmassage-img{
+        position: absolute;
+        width: 125px;
+        bottom: 7px;
+        left: 18px;
+    }
+    
+    .menu-detail h2{
+        color:#333631;
+        font-weight: 300;
+        text-align: center;
+        font-size: 40px;
+        line-height: 61.5px;
+        border-bottom: #333631 solid 3px;
+        width: 600px;
+        margin: 0px auto; 
+        margin-top: 100px;
+        margin-bottom: 50px;
+        position: relative;
+    }
+
+    .menu-detail p{
+        font-size: 30px;
+        color:#333631;
+        width: 717px;
+        margin: 0px auto;
+        text-align: start;
+        font-weight: 300;
+    }
+    
+    .inquiry{
+        text-align: center;
+        margin: 0px auto 80px;
+        width: 236px;
+        background-color: #d3ccd6;
+        line-height: 46px;
+    }
+
+    .inquiry a{
+        font-size: 25px;
+        color: #333631;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+    }
+
+    .inquiry a:hover{
+        background-color: #95859c;
+        color: #f3f3f3;
+    }
+
+    .inquiry a:active{
+        background-color: #95859c;
+    }
+
+
+}

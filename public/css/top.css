@@ -1,0 +1,196 @@
+@media (max-width:1024px){
+
+    .pc-content{
+        display: none;
+    }
+
+    .top-img{
+        max-width: 100%;
+    }
+
+    .top-description{
+        position: relative;
+        z-index: 1;
+    }
+
+    .top-message{
+        position: absolute;
+        bottom: 46vw;
+        left: 30vw;
+        z-index: 2;
+        text-align: center;
+        font-size: 3vw;
+        line-height: 6vw;
+        color: #333631;
+        font-family:'Noto Serif JP', serif;
+        font-weight: 500;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 5vw;
+        font-weight: 500;
+        color: #333631;
+    }
+
+    h3{
+        text-align: center;
+        color: #333631;
+        font-weight: 300;
+        font-size: 4vw;
+        line-height: 6vw;
+        border-bottom: #333631 solid 0.3vw;
+        width: 60vw;
+        margin: 6vw auto;
+    }
+
+    .recommend{
+        font-size: 2.3vw;
+        color: #333631;
+        width: 64vw;
+        margin: 0vw auto;
+        margin-bottom: 4vw;
+        background-color: #f3f3f3;
+        padding: 1vw 1vw 1vw 2vw;
+        
+    }
+
+    .comment{
+        width: 90vw;
+        margin: 5vw auto;
+        text-align: center;
+        font-size: 2.5vw;
+        color: #333631;
+    }
+
+    .inquiry{
+        text-align: center;
+        margin: 0vw auto 8vw;
+        width: 23vw;
+        background-color: #d3ccd6;
+        line-height: 4.5vw;
+    }
+
+    .inquiry a{
+        font-size: 2.5vw;
+        color: #333631;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+    }
+
+    .inquiry a:hover{
+        background-color: #95859c;
+        color: #f3f3f3;
+    }
+
+    .inquiry a:active{
+        background-color: #95859c;
+    }
+
+    .about-flow{
+        width: 85vw;
+        margin: 0vw auto;
+        font-size: 2.5vw;
+        color: #333631;
+        margin-bottom: 7vw;
+    }
+}
+
+
+@media (min-width:1025px){
+
+    .sm-content{
+        display: none;
+    }
+
+    .top-description{
+        text-align: center;
+    }
+
+    .top-img{
+        width: 1025px;
+    }
+
+    .top-message{
+        bottom: 580px;
+        font-size: 28px;
+        line-height: 40px;
+        color: #333631;
+        position: relative;
+        font-family:'Noto Serif JP', serif;
+        font-weight: 500;
+    }
+
+    
+    h2{
+        text-align: center;
+        font-size: 51px;
+        font-weight: 500;
+        color: #333631;
+    }
+
+    h3{
+        text-align: center;
+        color: #333631;
+        font-weight: 300;
+        font-size: 41px;
+        line-height: 61px;
+        border-bottom: #333631 solid 3px;
+        width: 615px;
+        margin: 61px auto;
+    }
+
+    .recommend{
+        font-size: 23px;
+        color: #333631;
+        width: 656px;
+        margin: 0px auto;
+        margin-bottom: 41px;
+        background-color: #f3f3f3;
+        padding: 10px 10px 10px 20px;
+        
+    }
+
+    .comment{
+        width: 922px;
+        margin: 51px auto;
+        text-align: center;
+        font-size: 25px;
+        color: #333631;
+    }
+
+    .inquiry{
+        text-align: center;
+        margin: 0px auto 80px;
+        width: 236px;
+        background-color: #d3ccd6;
+        line-height: 46px;
+    }
+
+    .inquiry a{
+        font-size: 25px;
+        color: #333631;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+    }
+
+    .inquiry a:hover{
+        background-color: #95859c;
+        color: #f3f3f3;
+    }
+
+    .inquiry a:active{
+        background-color: #95859c;
+    }
+
+    .about-flow{
+        width: 871px;
+        margin: 0px auto;
+        font-size: 25px;
+        color: #333631;
+        margin-bottom: 72px;
+    }
+
+}
